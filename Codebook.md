@@ -13,8 +13,7 @@ dataset and gives a mean of each measurement grouped by Subject and Activity.
   
 #### Mean of measurements:  
 
-##### The accleration measurements from the acclerometer split into two components, body and   
-##### gravity:  
+##### The accleration measurements from the acclerometer split into two components, body and gravity:  
   
 4 "tBodyAcc.mean...X"  
 5 "tBodyAcc.mean...Y"  
@@ -25,7 +24,7 @@ dataset and gives a mean of each measurement grouped by Subject and Activity.
 9 "tGravityAcc.mean...Z"  
    
 ##### A Jerk measurement for body accleration obtained from body linear acceleration   
-and angular velocity:  
+##### and angular velocity:  
   
 10 "tBodyAccJerk.mean...X"  
 11 "tBodyAccJerk.mean...Y"  
