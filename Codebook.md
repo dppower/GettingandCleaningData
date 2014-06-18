@@ -8,7 +8,7 @@ dataset and gives a mean of each measurement grouped by Subject and Activity.
 1 "Group" This indicates if the subject is assigned to the training or test groups.  
 2 "Subject" This is the subject id, numbered from 1 to 30.  
 3 "Activity" This is a factor variable that describes the activity a subject was doing    
-  when the measurement was taken.  
+  when the measurement was taken: Walking, Walking Up, Walking Down, Sitting, Standing and Laying.    
 
   
 #### Mean of measurements:  
