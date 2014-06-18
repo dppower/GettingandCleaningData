@@ -1,11 +1,13 @@
-url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(url, destfile = "data1.zip")
+# Download and unzip the data from the following URL:  
+# http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
 
-# Unzip the data and examine it manually.
+#Set the unzipped folder 'UCI HAR Dataset' as working directory.
 
-test1 <- read.table("X_test.txt")
-test2 <- read.table("y_test.txt")
-test3 <- read.table("subject_test.txt")
+library("plyr")
+
+test1 <- read.table("./test/X_test.txt")
+test2 <- read.table("./test/y_test.txt")
+test3 <- read.table("./test/subject_test.txt")
 
 # Combine the two datasets, "y-test" is the activities, "X-test" is the various variables
 test <- cbind(test3, test2, test1)
@@ -31,9 +33,9 @@ test <- cbind(Group = c("Test"), test)
 ##################
 # Repeat the same procedure for training set
 
-train1 <- read.table("X_train.txt")
-train2 <- read.table("y_train.txt")
-train3 <- read.table("subject_train.txt")
+train1 <- read.table("./train/X_train.txt")
+train2 <- read.table("./train/y_train.txt")
+train3 <- read.table("./train/subject_train.txt")
 
 # Combine the two datasets, "y-test" is the activities, "X-test" is the various variables
 train <- cbind(train3, train2, train1)

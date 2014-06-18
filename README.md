@@ -6,8 +6,6 @@ This repository contains:
 
 * An R script called 'run_analysis.R'
   
-* A folder called 'data' that contains the individual data files that were used.
-  
 * A 'complete' text file, which is the complete and tidied dataset, properly  
   labelled, this is in 'csv' format and can be read into R/RStudio with read.csv().
   
@@ -18,6 +16,9 @@ This repository contains:
 * A 'Codebook' text file describing the data.  
   
   
-The R script can be run in R/RStudio when all the files contained in the folder 'data'  
-are in the working directory, this script will produce the 'complete' and 'summary'  
-datasets and save both of them as comma-separated text files in working directory.
+Download and unzip the data from the following URL:  
+http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip  
+  
+Set the unzipped folder 'UCI HAR Dataset' as working directory. The R script can then be run in R/RStudio.  
+This script will produce the 'complete' and 'summary' datasets and save both of them as  
+comma-separated text files in working directory.
